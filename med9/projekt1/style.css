@@ -1,0 +1,26 @@
+h1 {
+	font-size: 75px; 
+	background-color: lightpink;
+	color: blue;
+	margin: 30px;
+	text-align: center;
+
+
+
+}
+
+
+h2 {
+	
+	font-size: center;
+	background-color: lightgreen;
+	color: green;
+	margin: 43px;
+	text-align: center;
+}
+
+
+img{
+	width: 200px;
+
+}

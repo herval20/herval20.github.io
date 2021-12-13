@@ -1,0 +1,26 @@
+h1{
+	background: green;
+	text-align: center;
+	font-size: 50px
+}
+
+h2{
+	background-color: green;
+	font-size: 45px
+
+}
+
+#goal {
+	background: green
+}
+
+:root {
+	scroll-behavior:smooth;
+}
+
+div{
+	border: dashed 20px;
+	margin: 20px;
+	padding: 20px;
+}
+

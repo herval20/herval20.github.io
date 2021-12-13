@@ -1,0 +1,24 @@
+h1{
+	background-color: lightblue;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+img {
+	width:200px;
+	margin:33px;
+
+}
+
+.right{
+	border: 4px dotted blue;
+	float: right;
+
+
+}
+
+.left{
+	border: 2px;
+	float :red;
+}
