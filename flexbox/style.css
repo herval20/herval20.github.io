@@ -1,0 +1,60 @@
+.first-try {
+	height: 400px;
+	background-color: lightpink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+h1{
+	background-color: purple;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-family:  'Dongle', sans-serif;
+}
+
+
+
+.second-try{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 400px;
+	background-color: violet;
+}
+
+
+
+
+p{
+	background-color: pink;
+}
+
+
+.third-try{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	height: 400px;
+	background-color: hotpink;
+
+}
+
+.fourth-try{
+	background-color: pink;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(211,233,148,1) 100%);
+
+}
+
+
+img {
+	width:189px;
+
+}
