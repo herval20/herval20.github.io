@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@100&display=swap');
+
+
+header{
+	text-align: center;
+
+}
+
+h1{
+	font-family:"Raleway";
+
+
+
+
+
+
+
+}
+
+h2{
+	font-family: "Dancing Script";
+}
+
+
+.a{
+	border: dotted 5px;
+	padding: 40px;
+	margin:33px;
+	
+
+	      }
+
+
+p{
+	column-count: 3;
+	font-family: "Raleway"
+	
+
+
+}
+
+#b{
+	background: rgb(174,238,214);
+background: radial-gradient(circle, rgba(174,238,214,1) 0%, rgba(99,143,172,1) 42%, rgba(25,50,130,1) 84%);
+border: dotted 5px;
+padding: 80px;
+margin: 10px;
+
+}
+
+p{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-color: white;
+	m
+
+}
