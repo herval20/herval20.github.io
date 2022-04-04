@@ -1,6 +1,6 @@
 /*
 *
-*  Title:Eine Website über das Meer
+*  Title:Eine Website über Natur
 *  Author: Hera Valikaj
 *   Date: 28.03.2022
 *
@@ -59,7 +59,7 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("io.jpg");
+	
 	background-size: cover;
 	background-position: center;
 }
@@ -71,6 +71,24 @@ header h1{
 	border-radius: 20px;
 
 }
+
+
+/* Main */
+
+main{
+	padding: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer */
@@ -94,3 +112,96 @@ footer p{
 	background: background: rgb(99,110,85);
 background: linear-gradient(90deg, rgba(99,110,85,1) 0%, rgba(0,223,104,1) 73%);
 }
+
+
+/*****************************Page Styling***************/
+
+/* Home Page */
+
+#home header{
+	background-image: url("io.jpg");
+}
+
+
+
+#home main {
+	background-color: lightgreen;
+}
+
+
+
+
+
+#home main h2 {
+	background-color: green;
+}
+
+
+/* Earth Page */
+
+
+
+
+#earth header{
+	background-image: url("hera.jpg"); 
+}
+
+
+#earth main {
+	background-color: limegreen;
+}
+
+
+#earth section{
+	display: flex;
+	align-items: stretch;
+	justify-content:space-between;
+}
+
+
+#earth section .left {
+	width: 30%;
+	background-color: chartreuse;
+}
+
+#earth section .right {
+width: 70%;
+background-color: brown;
+
+}
+
+/* Creatures Page */
+
+
+
+
+#creatures header{
+	background-image: url("bear.jpg"); 
+}
+
+
+#creatures main {
+	background-color: pink;
+}
+
+
+#creatures section{
+	display: flex;
+	align-items: stretch;
+	justify-content:space-between;
+}
+
+
+#creatures section .left {
+	width: 30%;
+	background-color: violet;
+}
+
+#creatures section .right {
+width: 70%;
+background-color: purple;
+
+}
+
+
+
