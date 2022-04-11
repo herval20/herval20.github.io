@@ -1,0 +1,79 @@
+
+
+
+:root{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+nav {
+background-color: purple;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+width: 100%;
+box-sizing:border-box;
+}
+
+
+
+nav img {
+height: 80px;
+border-radius: 50%;
+}
+
+
+
+
+nav ul {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style-type: none;
+}
+nav ul li a {
+margin: 10px;
+padding: 20px;
+background-color: blue;
+color: steelblue;
+border-radius: 10px;
+}
+nav ul li a:hover {
+background-color: white;
+color: red;
+     }
+
+
+section{
+	padding: 300px;
+
+}
+
+
+#section1{
+	background-color: pink;
+
+}
+
+
+#section2{
+	background-color: beige;
+
+}
+
+
+#section3{
+
+	background-color: pink;
+}
+
+
