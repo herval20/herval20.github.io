@@ -1,0 +1,56 @@
+body{
+	background-color: darkgrey;
+	margin: 0px;
+	font-family: "Calibri";
+
+}
+
+
+nav{
+	align-items: center;
+	background-color: lightgrey;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+nav img{
+	width: 160px;
+	height: 160px;
+}
+
+
+
+ul{
+display: flex;
+justify-content: space-around;
+list-style: none;
+
+}
+
+
+
+nav li{
+
+color: white;
+padding: 25px;
+border-radius: 50px;
+background-color: lightcoral;
+margin: 26px;
+
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 25px;
+
+	margin: 30px;
+}
+
+
+nav ul li:hover{
+	background-color: darkgrey;
+}
