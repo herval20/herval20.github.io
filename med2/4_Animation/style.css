@@ -1,0 +1,81 @@
+
+.container{
+
+
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.text{
+	animation-duration: 2s;
+	animation-name: text;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation-iteration-count: infinite;
+	letter-spacing: 5px;
+	margin-top: -30px;
+	
+
+}
+
+.ball {
+
+
+margin: 10px;
+border-radius: 50%;
+width:32px;
+height: 32px;
+animation-name: bounce;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+
+}
+
+
+.blue{
+background-color: blue;
+}
+
+
+.red{
+	background-color: red;
+	animation-delay: 0.25s;
+}
+
+
+.yellow{
+	background-color: yellow;
+	animation-delay: 0.50s;
+}
+
+
+.green{
+	background-color: green;
+	animation-delay: 0.75s;
+}
+
+@keyframes bounce{
+0%{transform: translateY(0px);}
+50%{transform: translateY(25px);}
+100%{transform: translateY(0px);}
+
+
+
+
+
+}
+
+
+
+@keyframes text{
+0%{opacity: 0;} 
+50%{opacity: 100;}
+100%{opacity: 0;}
+
+
+}

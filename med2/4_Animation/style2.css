@@ -1,0 +1,53 @@
+body{
+	background-color: red;
+}
+
+
+.text{
+	display: flex;
+	align-items: center;
+	margin-top: -70px;
+	letter-spacing: 5px;
+
+}
+
+.container{
+	width: 300px;
+	display: flex;
+	align-items: center;
+
+
+
+
+	}
+
+.hi {
+	height: 10px;
+	width: 250px;
+	border: 10px solid yellow;
+	border-radius: 15px;
+	margin-top: 300px;
+
+
+}
+
+
+.progress{
+	background-color: white;
+	height: 10px;
+	animation-name: progress;
+	animation-duration: 3s;
+
+}
+
+@keyframes progress{
+	0%{width: 0%;}
+	50%{width: 25%;}
+	75%{width: 50%;}
+	85%{width: 75%;}
+	100%{width: 100%;}
+}
+
+	
+
+
