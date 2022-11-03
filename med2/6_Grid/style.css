@@ -1,0 +1,22 @@
+
+
+
+div{
+	border: solid 1px;
+
+}
+
+
+
+
+
+
+
+.container{
+	display: grid;
+	width: 400px;
+	height: 300px;
+	background-color: deeppink;
+	grid-template-columns: 1 fr 1 fr 1 fr;
+	grid-template-rows: 100px auto;
+}
