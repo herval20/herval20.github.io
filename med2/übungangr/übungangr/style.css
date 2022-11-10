@@ -1,0 +1,117 @@
+body{
+	margin: 0%;
+	display: flex;
+}
+.container{
+	display: grid;
+	height: 100vh;
+	width: 100vw;
+	background-color: #F2D2BD;
+	grid-template-columns: 20vw auto 20vw ;
+    grid-template-rows: 10vh auto auto 10vh;
+
+}
+
+
+
+footer{
+		background-color: lightpink;
+		grid-column: 1/4;
+
+}
+
+
+header{
+	
+	background-color: pink;
+	grid-column: 1/4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+
+  }
+
+main{
+	background-color: lightcyan;
+	grid-column: 2/3;
+	grid-row: 2/4;
+	animation-name: figure;
+	animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   max-width: 500px;
+}
+
+
+.x{
+	background-color: lightcoral;
+	
+
+
+
+
+
+}
+
+
+.y{
+	background-color: #DE3163;
+}
+
+
+nav{
+	grid-column: 1/2;
+	grid-row: 2/4;
+}
+
+
+@keyframes figure {
+0%{transform: translateY(0px);}
+50%{transform: translateY(25px);}
+100%{transform: translateY(0px);}
+}
+
+img{
+	width: 100px;
+	height: 100px;
+	animation-name: fun;
+	animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+      }
+
+
+.img:hover{
+			transition-duration: 0.0005s;
+
+		}
+
+
+		.figure:hover{
+			transition-duration: 1s;
+		}
+
+
+
+
+@keyframes fun{
+	0%{width: 0%;}
+	50%{width: 25%;}
+	75%{width: 50%;}
+	85%{width: 75%;}
+	100%{width: 100%;}
+}
+
+
+
